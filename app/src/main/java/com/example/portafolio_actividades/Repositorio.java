@@ -66,7 +66,7 @@ public class Repositorio extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(getApplicationContext(),"Tu eres el Error",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Usuario no encontrado",Toast.LENGTH_LONG).show();
             }
         }
         );

@@ -30,6 +30,7 @@ public class Lista extends AppCompatActivity implements AdapterView.OnItemClickL
         tFlores.add("Fragmento");
         tFlores.add("Pokemon");
         tFlores.add("Repositorio");
+        tFlores.add("Binario");
 
 
         ArrayAdapter aTiposFlores = new ArrayAdapter(this, android.R.layout.simple_list_item_1,tFlores);
@@ -69,6 +70,9 @@ public class Lista extends AppCompatActivity implements AdapterView.OnItemClickL
             case 6:
                 intent = new Intent(this, Repositorio.class);
 
+                break;
+            case 7:
+                intent = new Intent(this,Binario.class);
                 break;
 
 
